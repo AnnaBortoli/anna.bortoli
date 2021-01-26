@@ -1,0 +1,84 @@
+body {
+    margin: 0; /*tutti i margini sono settati su 0*/
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: #66BFBF;
+    line-height: 2;
+}
+.hr-heading {
+    border-color: #4A74F5;
+    border-style: none; 
+    border-top-style: dotted;
+    height: 0px;
+    width: 5%;
+    border-width: 4px;
+    margin: 0px auto 20px auto;
+}
+h2 {
+    font-size: 2.5rem;
+    color: #66BFBF;
+    
+}
+.under-title {
+    font-family: 'Yusei Magic', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    margin-top: 50px;
+}
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 50px;
+}
+.top-cloud {
+    position: relative;
+    left: 200px;
+    top: 12px;
+}
+.bottom-cloud {
+    position: absolute;
+}
+.relax  {
+    width: 150px;
+    height: 150px;
+}
+.programming {
+    width: 150px;
+    height: 150px;
+}
+h3 {
+    color: #11999E;
+    }
+.footer-link {
+    color: #11999E;
+}
+.bottom-container {
+    background-color: #e4f9f5;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.relax {
+  float: left;
+  margin-right: 30px;
+}
+.programming {
+    float: right;
+    margin-left: 30px;
+}
+/*.p-clear {
+    clear: right;
+}
+il paragrafo con clear on è attaccato all'immagine ma va sotto */
+.p-clear: {
+    text-align: justify;
+}
